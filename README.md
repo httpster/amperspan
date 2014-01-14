@@ -6,8 +6,8 @@ Amperspan wraps ampersands in an a configurable tag with a class for easy sexy-f
 
 ### Installation
 
-1. Copy _add-ons/amperspan folder to _add-ons folder in Statamic
-2. Copy _config/add-ons/amperspan folder to config/add-ons folder in Statamic
+1. Copy _add-ons/amperspan folder to the Statamic _add-ons folder
+2. Copy _config/add-ons/amperspan folder to the Statamic config/add-ons folder
 
 ### Configuration
 
