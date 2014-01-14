@@ -1,0 +1,9 @@
+#
+# Amperspan Settings
+#
+
+# Tag
+amperspan_tag: 'span'
+
+# Class
+amperspan_class: 'amperspan'
