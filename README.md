@@ -1,6 +1,6 @@
 # Amperspan
 
-## A simple add-on for [Statamic](http://statamic.com/) to make ampersands sexy.
+## An add-on for [Statamic](http://statamic.com/) to make ampersands sexy.
 
 Amperspan wraps ampersands in an a configurable tag with a class for easy sexy-fying.
 
