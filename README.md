@@ -2,19 +2,18 @@
 
 ## An add-on for [Statamic](http://statamic.com/) to make ampersands sexy.
 
-Amperspan wraps ampersands in an a configurable tag with a class for easy sexy-fying.
+Amperspan is a Statamic variable modifier that wraps ampersands in a configurable tag with a class for easy sexy-fying.
 
 ### Installation
 
-1. Copy _add-ons/amperspan folder to the Statamic _add-ons folder
-2. Copy _config/add-ons/amperspan folder to the Statamic config/add-ons folder
+1. Copy the _add-ons/amperspan folder to the Statamic _add-ons folder
 
-### Configuration
+### Sample Usage
 
-Configure the wrapping tag and class in _config/add-ons/amperspan/amperspan.yaml.
+Default usage, wrapper is a "span" tag and class is "amperspan".
 
-### Usage
+`{{ title|amperspan }}`
 
-Wrap text variables in the amperspan tag pair.
+Or with optional parameters to customize the wrapping tag and class.
 
-`<h1>{{ amperspan }} {{title}} {{ /amperspan }}</h1>`
+`{{ title|amperspan:tag:class }}`
