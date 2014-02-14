@@ -9,6 +9,7 @@ class Modifier_amperspan extends Modifier
 {
 	public function index($value, $parameters=array())
 	{
+
 		$tag = array_get($parameters, 0, 'span');
 		$class = array_get($parameters, 1, 'amperspan');
 
