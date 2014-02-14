@@ -13,7 +13,7 @@ class Modifier_amperspan extends Modifier
 		$tag = array_get($parameters, 0, 'span');
 		$class = array_get($parameters, 1, 'amperspan');
 
-		$value = preg_replace('/&(?!(?:[a-z][a-z\d]*|#(?:\d+|[xX][a-f\d]+));)|&amp;/', ' <'.$tag.' class="'.$class.'">&amp;</'.$tag.'> ', rtrim($value));
+		$value = preg_replace('/&(?!(?:[a-z][a-z\d]*|#(?:\d+|[xX][a-f\d]+));)|&amp;/', ' <'.$tag.' class="'.$class.'">&amp;</'.$tag.'> ', $value);
 
 		return $value;
 
